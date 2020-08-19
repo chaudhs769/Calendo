@@ -14,7 +14,7 @@ export class AccountPageComponent{
    locale = enUS.accountPage;
    faSync = faSync;
    faLock = faLock;
-	@ViewChild(LogoutModalComponent)
+	@ViewChild(LogoutModalComponent, { static: false })
    private logoutModalComponent: LogoutModalComponent;
    width: number = window.innerWidth;
 
