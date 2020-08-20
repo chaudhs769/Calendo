@@ -88,7 +88,7 @@ import { environment } from '../environments/environment';
 		], {
 			useHash: false
 		}),
-		NgbModule.forRoot(),
+		NgbModule,
 		FontAwesomeModule,
       ServiceWorkerModule.register('/sw.js', { enabled: environment.production }),
       FabCheckboxModule,
